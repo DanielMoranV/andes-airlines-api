@@ -1,8 +1,8 @@
-import app from './app';
-const main =()=>{
+import app from "./app";
+const main = () => {
   //Iniciando el servidor, escuchando...
-  app.listen(app.get('port'),()=>{
-    console.log(`Server init at http://localhost:${app.get('port')} `);
+  app.listen(app.get("port"), () => {
+    console.log(`Server init at http://localhost:${app.get("port")} `);
   });
 };
 
