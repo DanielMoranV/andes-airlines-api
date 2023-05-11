@@ -1,7 +1,7 @@
 {
   "name": "airline-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Check-in automático de pasajeros. API Desarrollado en Nodejs - Express.",
   "main": "index.js",
   "scripts": {
     "babel-node": "babel-node --presets @babel/preset-env",

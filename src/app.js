@@ -23,7 +23,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 //Routes
-app.use(require("./routes/index"));
 app.use("/flights", flightsRoutes);
 
 export default app;
